@@ -8,6 +8,7 @@ var deathMinWidthReached = false;
 var maxDepressionReached = false;
 var minDepressionReached = false;
 var playerInitialized = false;
+var drawPlatformsCalled = false;
 
 function debug(){
     //Player
@@ -24,7 +25,7 @@ function debug(){
     //Deathpression
     //console.log("death.x: " + death.x);
     //console.log("death.y: " + death.y);
-    console.log("death.width: " + death.width)
+    //console.log("death.width: " + death.width)
     //console.log("death.height: " + death.height);
     //console.log("depressionUnit: " + depressionUnit);
     //console.log("death.xGrowthRate: " + death.xGrowthRate);
@@ -37,8 +38,12 @@ function debug(){
     //console.log("deathMinWidthReached: " + deathMinWidthReached);
 
     //Loved Ones
-    console.log("lovedOnes[0].width: " + lovedOnes[0].width);
+    //console.log("lovedOnes[0].width: " + lovedOnes[0].width);
 
+    //Platforms
+    console.log("drawPlatformsCalled: " + drawPlatformsCalled);
+    console.log("(platforms[0].x,platforms[0].y): (" + platforms[0].x + "," + platforms[0].y + ")");
+    console.log("(platforms[9].x,platforms[9].y): (" + platforms[9].x + "," + platforms[9].y + ")");
     //Draw
     //console.log("drawplayerCalled: " + drawPlayerCalled + " times");
     //console.log("drawDeathpressionCalled: " + drawDeathpressionCalled + " times");

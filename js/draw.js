@@ -49,6 +49,14 @@ function drawLovedOne(index){
             drawRect('magenta', lovedOnes[1].x,lovedOnes[1].y, lovedOnes[1].width,lovedOnes[1].height);
     }
 }
+function drawPlatforms(){
+    for (i = 0; i < 40; i++){
+        if (platforms[i].exists){
+            drawRect('yellow', platforms[i].x,platforms[i].y, platforms[i].width,platforms[i].height);
+        }
+    }
+    drawPlatformsCalled = true; // debug
+}
 
 function drawEverything() {
     drawCanvas();
@@ -60,4 +68,5 @@ function drawEverything() {
     if (lovedOnes[1].alive){
         drawLovedOne(1);
     }
+    drawPlatforms();
 }

@@ -4,6 +4,7 @@ function randomNumber(start, end) {
 function moveEverything() {
     updateDeathpression();
     updateLovedOnes();
+    updatePlatforms();
 }
 function updateAll() {
     moveEverything();
