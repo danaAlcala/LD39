@@ -3,6 +3,7 @@ function randomNumber(start, end) {
 }
 function moveEverything() {
     updateDeathpression();
+    updateLovedOnes();
 }
 function updateAll() {
     moveEverything();

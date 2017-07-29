@@ -26,11 +26,14 @@ function setDeathpressionSize(){
     if (player.depression < 50){
         death.height = death.yGrowthRate * (player.depression / depressionUnit);
     }
-    else if (player.depression == 50) {
+    else if (player.depression == 50){
         death.height = unitOfMeasureY;
     }
+    else if (player.depression == 90){
+        death.height = player.height;
+    }
     else {
-        death.height = death.yGrowthRate * ((player.depression - 50) / depressionUnit);
+        death.height = death.yGrowthRate * ((player.depression - 40) / depressionUnit);
     }
     if (death.width > death.maxWidth){
         death.width = death.maxWidth;

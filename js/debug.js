@@ -13,18 +13,18 @@ function debug(){
     //Player
     //console.log("player.x: " + player.x);
     //console.log("player.y: " + player.y);
-    console.log("player.depression: " + player.depression);
+    //console.log("player.depression: " + player.depression);
     //console.log("player height: " + player.height);
-    console.log("maxDepressionReached: " + maxDepressionReached);
-    console.log("minDepressionReached: " + minDepressionReached);
-    console.log("player.maxDepression: " + player.maxDepression);
-    console.log("player.minDepression: " + player.minDepression);
+    //console.log("maxDepressionReached: " + maxDepressionReached);
+    //console.log("minDepressionReached: " + minDepressionReached);
+    //console.log("player.maxDepression: " + player.maxDepression);
+    //console.log("player.minDepression: " + player.minDepression);
     
 
     //Deathpression
     //console.log("death.x: " + death.x);
     //console.log("death.y: " + death.y);
-    //console.log("death.width: " + death.width)
+    console.log("death.width: " + death.width)
     //console.log("death.height: " + death.height);
     //console.log("depressionUnit: " + depressionUnit);
     //console.log("death.xGrowthRate: " + death.xGrowthRate);
@@ -35,6 +35,9 @@ function debug(){
     //console.log("deathMaxWidthReached: " + deathMaxWidthReached);
     //console.log("deathMinHeightReached: " + deathMinHeightReached);
     //console.log("deathMinWidthReached: " + deathMinWidthReached);
+
+    //Loved Ones
+    console.log("lovedOnes[0].width: " + lovedOnes[0].width);
 
     //Draw
     //console.log("drawplayerCalled: " + drawPlayerCalled + " times");

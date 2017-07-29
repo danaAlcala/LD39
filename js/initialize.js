@@ -48,6 +48,23 @@ function initDeathpression(){
     death.minWidth = death.xGrowthRate;
     death.minHeight = death.xGrowthRate;
 }
+function initLovedOnes(index){
+    //First of two
+    lovedOnes[0] = new LovedOne();
+    lovedOnes[0].width = player.width;
+    lovedOnes[0].height = player.height;
+    lovedOnes[0].jumpPower = player.jumpPower;
+    lovedOnes[0].x = death.x - lovedOnes[0].width;
+    lovedOnes[0].y = player.y;
+
+    //2nd of two
+    lovedOnes[1] = new LovedOne();
+    lovedOnes[1].width = player.width;
+    lovedOnes[1].height = player.height;
+    lovedOnes[1].jumpPower = player.jumpPower;
+    lovedOnes[1].x = lovedOnes[0].x - lovedOnes[1].width;
+    lovedOnes[1].y = player.y;
+}
 /*function initializeImages() {
     imageName.src = "./images/imageName.png";
 
@@ -66,6 +83,7 @@ function initializeEverything() {
     initPlayer();
     initMeasure();
     initDeathpression();
+    initLovedOnes();
 
     // console.log('initializeEverything() completed');  // DEBUG
 

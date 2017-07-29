@@ -41,9 +41,23 @@ function drawDeathpression(){
 
     drawDeathpressionCalled++; //debug
 }
+function drawLovedOne(index){
+    switch (index) {
+        case 0:
+            drawRect('blue', lovedOnes[0].x,lovedOnes[0].y, lovedOnes[0].width,lovedOnes[0].height);
+        default:
+            drawRect('magenta', lovedOnes[1].x,lovedOnes[1].y, lovedOnes[1].width,lovedOnes[1].height);
+    }
+}
 
 function drawEverything() {
     drawCanvas();
     drawPlayer();
     drawDeathpression();
+    if (lovedOnes[0].alive){
+        drawLovedOne(0);
+    }
+    if (lovedOnes[1].alive){
+        drawLovedOne(1);
+    }
 }

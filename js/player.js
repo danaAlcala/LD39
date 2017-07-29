@@ -38,7 +38,7 @@ function Player(){
     this.x; //initPlayer()
     this.y; //initPlayer()
     this.headSize = 5;
-    this.maxDepression = 100;
+    this.maxDepression = 90;
     this.minDepression = 10;
     this.lives = 10;  
 }
