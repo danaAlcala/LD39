@@ -4,9 +4,10 @@ function randomNumber(start, end) {
 function moveEverything() {
     updateDeathpression();
     updateLovedOnes();
-    updatePlatforms();
+    updatePits();
 }
 function updateAll() {
+    updateFrameCounter();
     moveEverything();
     drawEverything();
     debug();

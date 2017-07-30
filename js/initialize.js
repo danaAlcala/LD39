@@ -28,7 +28,7 @@ function initPlayer(){
     player.y = canvas.height / 2 - player.height / 2;
     player.walkSpeed = player.width * player.walkSpeedMultiplier;
     player.jumpPower = player.height * player.jumpPowerMultiplier;
-    player.depression = depressionUnit * 9;
+    player.depression = depressionUnit * 4;
     playerInitialized = true;
 }
 function initMeasure(){
@@ -67,7 +67,7 @@ function initLovedOnes(index){
 }
 function initPlatforms(){
     //10 Total
-    for (i = 0; i < 40; i++){
+    for (i = 0; i < lastPlatIndex + 1; i++){
         platforms[i] = new Platform;
         platforms[i].width = player.width / 4;
         platforms[i].height = player.height / player.headSize;

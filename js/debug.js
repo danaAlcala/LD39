@@ -48,8 +48,11 @@ function debug(){
     //console.log("(platforms[9].x,platforms[9].y): (" + platforms[9].x + "," + platforms[9].y + ")");
     //console.log("platformIndex: " + platformIndex);
     //console.log("pitIndex: " + pitIndex);
-    console.log("rebuildIndex: " + rebuildIndex);
-    console.log("lastPlatform: " + lastPlatform);
+    //console.log("rebuildIndex: " + rebuildIndex);
+    //console.log("lastPlatform: " + lastPlatform);
+
+    //Pit
+    console.log("pitCounter: " + pitCounter);
     
     //Draw
     //console.log("drawplayerCalled: " + drawPlayerCalled + " times");
