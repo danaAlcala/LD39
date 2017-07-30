@@ -80,75 +80,7 @@ function initPlatforms(){
         platforms[i].y = player.y + player.height;
 
     }
-/*
-    platforms[0] = new Platform();
-    platforms[0].width = player.width / 4;
-    platforms[0].height = player.height / player.headSize;
-    platforms[0].x = 0;
-    platforms[0].y = player.y + player.height;
-
-    platforms[1] = new Platform();
-    platforms[1].width = player.width / 4;
-    platforms[1].height = player.height / player.headSize;
-    platforms[1].x = platforms[0].width;
-    platforms[1].y = player.y + player.height;
-
-    platforms[2] = new Platform();
-    platforms[2].width = player.width;
-    platforms[2].height = player.height / player.headSize;
-    platforms[2].x = platforms[1].x + platforms[0].width;
-    platforms[2].y = player.y + player.height;
-
-    platforms[3] = new Platform();
-    platforms[3].width = player.width;
-    platforms[3].height = player.height / player.headSize;
-    platforms[3].x = platforms[2].x + platforms[0].width;
-    platforms[3].y = player.y + player.height;
-
-    platforms[4] = new Platform();
-    platforms[4].width = player.width;
-    platforms[4].height = player.height / player.headSize;
-    platforms[4].x = platforms[3].x + platforms[0].width;
-    platforms[4].y = player.y + player.height;
-
-    platforms[5] = new Platform();
-    platforms[5].width = player.width;
-    platforms[5].height = player.height / player.headSize;
-    platforms[5].x = platforms[4].x + platforms[0].width;
-    platforms[5].y = player.y + player.height;
-
-    platforms[6] = new Platform();
-    platforms[6].width = player.width;
-    platforms[6].height = player.height / player.headSize;
-    platforms[6].x = platforms[5].x + platforms[0].width;
-    platforms[6].y = player.y + player.height;
-
-    platforms[7] = new Platform();
-    platforms[7].width = player.width;
-    platforms[7].height = player.height / player.headSize;
-    platforms[7].x = platforms[6].x + platforms[0].width;
-    platforms[7].y = player.y + player.height;
-
-    platforms[8] = new Platform();
-    platforms[8].width = player.width;
-    platforms[8].height = player.height / player.headSize;
-    platforms[8].x = platforms[7].x + platforms[0].width;
-    platforms[8].y = player.y + player.height;
-
-    platforms[9] = new Platform();
-    platforms[9].width = player.width;
-    platforms[9].height = player.height / player.headSize;
-    platforms[9].x = platforms[8].x + platforms[0].width;
-    platforms[9].y = player.y + player.height;
-    */
 }
-/*function initializeImages() {
-    imageName.src = "./images/imageName.png";
-
-    imageWidth = canvas.width * 0.10;
-    imageHeight = canvas.height * 0.186666666666;
-    imageScaleModifier = 1;
-}*/
 function initializeEverything() {
     // console.log('Called initializeEverything()');  // DEBUG
 

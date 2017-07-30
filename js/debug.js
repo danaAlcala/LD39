@@ -9,6 +9,8 @@ var maxDepressionReached = false;
 var minDepressionReached = false;
 var playerInitialized = false;
 var drawPlatformsCalled = false;
+var dePitCalled = 0;
+var pitCalled = 0;
 
 function debug(){
     //Player
@@ -41,9 +43,14 @@ function debug(){
     //console.log("lovedOnes[0].width: " + lovedOnes[0].width);
 
     //Platforms
-    console.log("drawPlatformsCalled: " + drawPlatformsCalled);
-    console.log("(platforms[0].x,platforms[0].y): (" + platforms[0].x + "," + platforms[0].y + ")");
-    console.log("(platforms[9].x,platforms[9].y): (" + platforms[9].x + "," + platforms[9].y + ")");
+    //console.log("drawPlatformsCalled: " + drawPlatformsCalled);
+    //console.log("(platforms[0].x,platforms[0].y): (" + platforms[0].x + "," + platforms[0].y + ")");
+    //console.log("(platforms[9].x,platforms[9].y): (" + platforms[9].x + "," + platforms[9].y + ")");
+    //console.log("platformIndex: " + platformIndex);
+    //console.log("pitIndex: " + pitIndex);
+    console.log("rebuildIndex: " + rebuildIndex);
+    console.log("lastPlatform: " + lastPlatform);
+    
     //Draw
     //console.log("drawplayerCalled: " + drawPlayerCalled + " times");
     //console.log("drawDeathpressionCalled: " + drawDeathpressionCalled + " times");
