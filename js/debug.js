@@ -1,4 +1,9 @@
-//Draw
+/* Keep in mind I have a bad habit of not cleaning out
+   my debug stuff, so don't be surprised if you try some
+   of these cases and they're missing functions and/or
+   simply do not work.*/
+
+//Variables
 var drawPlayerCalled = 0;
 var drawDeathpressionCalled = 0;
 var deathMaxHeightReached = false;
@@ -11,6 +16,7 @@ var playerInitialized = false;
 var drawPlatformsCalled = false;
 var dePitCalled = 0;
 var pitCalled = 0;
+var pitShifted = 0;
 
 function debug(){
     //Player
@@ -52,7 +58,15 @@ function debug(){
     //console.log("lastPlatform: " + lastPlatform);
 
     //Pit
-    console.log("pitCounter: " + pitCounter);
+    //console.log("pitCounter: " + pitCounter);
+    //console.log("pit.length: " + pit.length);
+    //console.log("pitShifted: " + pitShifted);
+    //console.log("currentPit: " + currentPit);
+    /*if (frameCounter > 60){
+        console.log("pit[0].plats: " + pit[0].plats);
+    }*/
+    //console.log("currentPit: " + currentPit);
+    
     
     //Draw
     //console.log("drawplayerCalled: " + drawPlayerCalled + " times");

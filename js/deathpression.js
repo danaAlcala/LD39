@@ -59,7 +59,7 @@ function setDeathpressionSize(){
 function setDeathpressionX(){
     death.x = player.x - death.width;
 }
-function debugDeathpression(){
+/*function debugDeathpression(){
     if (keyHeld == false){
         if (holdUp){
             player.depression += depressionUnit;
@@ -72,11 +72,11 @@ function debugDeathpression(){
             keyHeld = true;
         }
     }
-}
+}*/
 
 function updateDeathpression(){
     setDeathpressionYGrowthRate();
     setDeathpressionSize();
     setDeathpressionX();
-    debugDeathpression();
+    //debugDeathpression();
 }
